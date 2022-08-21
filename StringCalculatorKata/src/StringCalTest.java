@@ -12,4 +12,11 @@ public class StringCalTest
         assertEquals(0, StringCalculator.add(""));
     }
 
+    @Test
+    public void shouldReturnOne()
+    {
+        assertEquals(1, StringCalculator.add("1"));
+    }
+
+
 }
