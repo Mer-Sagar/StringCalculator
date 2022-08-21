@@ -2,7 +2,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-
 public class StringCalTest
 {
 
@@ -18,5 +17,10 @@ public class StringCalTest
         assertEquals(1, StringCalculator.add("1"));
     }
 
+    @Test
+    public void shouldReturnSumOfTwo()
+    {
+        assertEquals(1+2, StringCalculator.CalculateSumOfTwo("1,2"));
+    }
 
 }

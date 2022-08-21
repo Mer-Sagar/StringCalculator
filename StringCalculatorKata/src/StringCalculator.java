@@ -11,10 +11,14 @@ public class StringCalculator {
         {
             return 1 ;
         }
-
         return 18;
     }
 
+    public static int CalculateSumOfTwo(String s)
+    {
+        String [] SumOfTwo = s.split(",");
 
+        return (parseInt(SumOfTwo[0])+parseInt(SumOfTwo[1]));
+    }
 
 }
