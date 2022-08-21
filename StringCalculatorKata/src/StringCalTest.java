@@ -23,4 +23,11 @@ public class StringCalTest
         assertEquals(1+2, StringCalculator.CalculateSumOfTwo("1,2"));
     }
 
+
+    @Test
+    public void shouldReturnSumOfThree()
+    {
+        assertEquals(6, StringCalculator.CalculateSumOfmorethanTwo("1,2,3"));
+    }
+
 }

@@ -21,4 +21,12 @@ public class StringCalculator {
         return (parseInt(SumOfTwo[0])+parseInt(SumOfTwo[1]));
     }
 
+
+    public static int CalculateSumOfmorethanTwo(String s)
+    {
+        String [] SumOfTwo = s.split(",");
+
+        return (parseInt(SumOfTwo[0])+parseInt(SumOfTwo[1])+parseInt(SumOfTwo[2]));
+    }
+
 }
